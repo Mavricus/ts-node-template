@@ -1,0 +1,16 @@
+{
+  "moduleFileExtensions": ["js"],
+  "rootDir": "test",
+  "verbose": true,
+  "testRegex": ".*\\.spec\\.js$",
+  "coveragePathIgnorePatterns": [
+    "node_modules",
+    "test-config",
+    "interfaces",
+    ".mock.ts"
+  ],
+  "coverageReporters": ["text", "html"],
+  "collectCoverageFrom": ["**/*.js"],
+  "coverageDirectory": "../coverage/unit",
+  "testEnvironment": "node"
+}

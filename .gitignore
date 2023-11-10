@@ -50,6 +50,11 @@ web_modules/
 
 # Optional npm cache directory
 .npm
+.npmrc
+src/**/*.js
+src/**/*.js.map
+test/**/*.js
+test/**/*.js.map
 
 # Optional eslint cache
 .eslintcache
@@ -128,3 +133,32 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# compiled output
+/dist
+/node_modules
+/.pnpm-store
+schema.gql
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode
+
+# OS
+.DS_Store
+
+# database container volumes
+data/db
+/cache
